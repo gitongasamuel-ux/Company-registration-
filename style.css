@@ -1,0 +1,20 @@
+/* Keep radio buttons and checkboxes native sized and inline */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Helper layout class to keep choices nicely aligned next to their labels */
+.inline-label {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+.radio-group, .checkbox-group, .terms-container {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
